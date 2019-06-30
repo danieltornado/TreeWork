@@ -26,7 +26,7 @@ static void Main(string[] args)
             {
                 new TreeItem
                 {
-                    Id = 2, Name = "Joe", Childs = new List<TreeItem>
+                    Id = 2, Name = "Joey", Childs = new List<TreeItem>
                     {
                         new TreeItem { Id = 3, Name = "Chandler" },
                         new TreeItem { Id = 4, Name = "Richard" }
@@ -41,12 +41,12 @@ static void Main(string[] args)
             {
                 new TreeItem
                 {
-                    Id = 7, Name = "Raichel", Childs = new List<TreeItem>
+                    Id = 7, Name = "Rachel", Childs = new List<TreeItem>
                     {
                         new TreeItem { Id = 8, Name = "Monica" }
                     }
                 },
-                new TreeItem { Id = 9, Name = "Fibby" }
+                new TreeItem { Id = 9, Name = "Phoebe" }
             }
         }
     };
